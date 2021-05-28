@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sigmar One", cursive;
+  height: 100vh;
+  background-color: gray;
+  font-size: 22px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  background-color: white;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 1px 1px 13px rgb(0 0 0 / 55%);
+}
+
+h1 {
+  background-color: aquamarine;
+  padding: 10px 0;
+  font-size: 28px;
+  border-radius: 18px;
+}
+
+p {
+  color: gray;
+}
+
+.control {
+  margin: 25px 0;
+}
+input {
+  border: none;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid blue;
+  color: blue;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+select {
+  border: none;
+  outline: none;
+
+  color: aquamarine;
+  border: 1px solid;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 11px 34px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+button#calculate {
+  color: white;
+  background: aquamarine;
+  border: 1px solod transparent;
+  font-size: 17px;
+  border-radius: 18px;
+  padding: 14px 29px;
+  margin: 25px;
+  transition: all 0.3s ease;
+}
+
+button#calculate:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: transparent;
+}
+
+.totalTip {
+  background-color: aquamarine;
+  border-radius: 18px;
+  padding: 25px 0px 35px;
+}
+
+p.tip {
+  font-size: 30px;
+  color: green;
+  margin-top: 10px;
+}
